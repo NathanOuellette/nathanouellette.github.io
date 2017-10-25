@@ -1,0 +1,26 @@
+html {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-resolution: 150dpi) {
+    /* CSS for high resolution screens */
+  .logo {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/55/Coffee_bean_transparent.png);
+  }
+}
